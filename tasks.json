@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T10:28:53+07:00",
+  "updatedAt": "2026-11-22T12:26:09+07:00",
   "roadmap": [],
   "schedule": [
     {
@@ -136,6 +136,22 @@
       "note": "",
       "doneAt": null,
       "createdAt": "2026-11-22T10:22:02+07:00"
+    },
+    {
+      "id": "t-20261125-2fe74d",
+      "title": "Làm video giữa kỳ môn Thực hành dạy học",
+      "date": "2026-11-25",
+      "time": "20:00",
+      "category": "Học tập",
+      "status": "todo",
+      "important": false,
+      "goal": "",
+      "originalDate": "",
+      "postponed": 0,
+      "link": "",
+      "note": "",
+      "doneAt": null,
+      "createdAt": "2026-11-22T12:26:09+07:00"
     }
   ]
 }
