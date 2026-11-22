@@ -1,7 +1,40 @@
 {
-  "updatedAt": "2026-11-22T02:30:00+07:00",
+  "updatedAt": "2026-11-22T10:22:02+07:00",
   "roadmap": [],
   "schedule": [],
   "goals": [],
-  "tasks": []
+  "tasks": [
+    {
+      "id": "t-20261122-6298ab",
+      "title": "Chỉnh sửa xong slide tiết dạy online Khoa học tự nhiên lớp 9",
+      "date": "2026-11-22",
+      "time": "14:00",
+      "category": "Giảng dạy",
+      "status": "todo",
+      "important": false,
+      "goal": "",
+      "originalDate": "",
+      "postponed": 0,
+      "link": "",
+      "note": "",
+      "doneAt": null,
+      "createdAt": "2026-11-22T10:22:02+07:00"
+    },
+    {
+      "id": "t-20261125-413913",
+      "title": "Chuẩn bị thuyết trình môn Vi sinh vật trong xử lý môi trường",
+      "date": "2026-11-25",
+      "time": "",
+      "category": "Học tập",
+      "status": "todo",
+      "important": false,
+      "goal": "",
+      "originalDate": "",
+      "postponed": 0,
+      "link": "",
+      "note": "",
+      "doneAt": null,
+      "createdAt": "2026-11-22T10:22:02+07:00"
+    }
+  ]
 }
