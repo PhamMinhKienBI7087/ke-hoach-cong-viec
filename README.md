@@ -54,6 +54,7 @@ Ví dụ dưới đây chỉ minh họa cấu trúc; file thật bắt đầu tr
 | `label` | Tên lịch. |
 | `start`, `end` | Giờ `HH:MM` nếu biết chính xác. |
 | `slot` | Mô tả khi không có giờ chính xác, ví dụ "Buổi tối", "Cả ngày". Chỉ ghi đúng điều thầy nói. |
+| `from`, `until` | Ngày bắt đầu và ngày kết thúc hiệu lực, `YYYY-MM-DD`, tính cả hai đầu. Bỏ trống nghĩa là không giới hạn phía đó. |
 
 ### `goals`: mục tiêu tuần, tháng
 

@@ -388,7 +388,7 @@ footer { font-size: 12px; color: var(--muted); }
   }
   function byImportantThenDeadline(a, b) { if (a.important !== b.important) return a.important ? -1 : 1; return byDeadline(a, b); }
   function tasksOn(ds) { return state.tasks.filter(function (t) { return t.date === ds; }).sort(byDeadline); }
-  function fixedOn(d) { var n = dowIndex(d) + 1; return state.schedule.filter(function (s) { return s.days.indexOf(n) >= 0; }); }
+  function fixedOn(d) { var n = dowIndex(d) + 1, k = ymd(d); return state.schedule.filter(function (s) { return s.days.indexOf(n) >= 0 && (!s.from || k >= s.from) && (!s.until || k <= s.until); }); }
   function fixedWhen(s) { return s.start ? '<span class="tm">' + esc(s.start + (s.end ? "–" + s.end : "")) + "</span>" : esc(s.slot || ""); }
   function dayState(list) {
     if (!list.length) return "";
@@ -751,8 +751,9 @@ footer { font-size: 12px; color: var(--muted); }
   function normFixed(x) {
     x = x || {};
     var days = Array.isArray(x.days) ? x.days.filter(function (d) { return d >= 1 && d <= 7; }) : [];
-    return { days: days, label: x.label || "Lịch cố định", start: isTime(x.start) ? x.start : "", end: isTime(x.end) ? x.end : "", slot: x.slot || "" };
+    return { days: days, label: x.label || "Lịch cố định", start: isTime(x.start) ? x.start : "", end: isTime(x.end) ? x.end : "", slot: x.slot || "", from: isDate(x.from) ? x.from : "", until: isDate(x.until) ? x.until : "" };
   }
+  function isDate(v) { return typeof v === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v); }
   function normMs(x, i) {
     x = x || {};
     return { id: String(x.id || "m" + i), title: x.title || "", when: x.when || "", status: x.status === "done" || x.status === "current" ? x.status : "next" };
