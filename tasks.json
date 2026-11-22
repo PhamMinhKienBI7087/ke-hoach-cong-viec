@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T10:24:51+07:00",
+  "updatedAt": "2026-11-22T10:28:53+07:00",
   "roadmap": [],
   "schedule": [
     {
@@ -71,6 +71,36 @@
       "end": "",
       "from": "2026-11-27",
       "until": "2026-11-27"
+    },
+    {
+      "days": [
+        6
+      ],
+      "label": "Dạy khóa offline lớp 10",
+      "start": "18:30",
+      "end": "21:30",
+      "from": "2026-11-22",
+      "until": "2027-06-30"
+    },
+    {
+      "days": [
+        7
+      ],
+      "label": "Dạy khóa offline lớp 11",
+      "start": "14:00",
+      "end": "17:00",
+      "from": "2026-11-22",
+      "until": "2027-06-30"
+    },
+    {
+      "days": [
+        7
+      ],
+      "label": "Dạy khóa offline lớp 12",
+      "start": "18:30",
+      "end": "21:30",
+      "from": "2026-11-22",
+      "until": "2027-06-30"
     }
   ],
   "goals": [],
