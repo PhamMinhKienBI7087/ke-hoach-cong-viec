@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T12:26:09+07:00",
+  "updatedAt": "2026-11-23T11:37:48+07:00",
   "roadmap": [],
   "schedule": [
     {
@@ -111,14 +111,14 @@
       "date": "2026-11-22",
       "time": "14:00",
       "category": "Giảng dạy",
-      "status": "todo",
+      "status": "done",
       "important": false,
       "goal": "",
       "originalDate": "",
       "postponed": 0,
       "link": "",
       "note": "",
-      "doneAt": null,
+      "doneAt": "2026-11-23T11:37:48+07:00",
       "createdAt": "2026-11-22T10:22:02+07:00"
     },
     {
