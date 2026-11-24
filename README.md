@@ -55,6 +55,8 @@ Ví dụ dưới đây chỉ minh họa cấu trúc; file thật bắt đầu tr
 | `start`, `end` | Giờ `HH:MM` nếu biết chính xác. |
 | `slot` | Mô tả khi không có giờ chính xác, ví dụ "Buổi tối", "Cả ngày". Chỉ ghi đúng điều thầy nói. |
 | `from`, `until` | Ngày bắt đầu và ngày kết thúc hiệu lực, `YYYY-MM-DD`, tính cả hai đầu. Bỏ trống nghĩa là không giới hạn phía đó. |
+| `cancelled` | Danh sách ngày `YYYY-MM-DD` mà buổi đó bị huỷ. Trang gạch ngang buổi đó và ghi "Đã huỷ"; các tuần khác giữ nguyên. |
+| `done` | Danh sách ngày `YYYY-MM-DD` mà buổi đó đã xong. Trang gạch ngang và ghi "Đã xong". |
 
 ### `goals`: mục tiêu tuần, tháng
 
