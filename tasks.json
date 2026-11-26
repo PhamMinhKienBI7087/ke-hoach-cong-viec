@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T02:25:14+07:00",
+  "updatedAt": "2026-11-26T14:54:20+07:00",
   "roadmap": [],
   "schedule": [
     {
@@ -156,14 +156,14 @@
     {
       "id": "t-20261125-413913",
       "title": "Chuẩn bị thuyết trình môn Vi sinh vật trong xử lý môi trường",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "time": "",
       "category": "Học tập",
       "status": "todo",
       "important": false,
       "goal": "",
-      "originalDate": "",
-      "postponed": 0,
+      "originalDate": "2026-11-25",
+      "postponed": 1,
       "link": "",
       "note": "",
       "doneAt": null,
@@ -172,14 +172,14 @@
     {
       "id": "t-20261125-2fe74d",
       "title": "Làm video giữa kỳ môn Thực hành dạy học",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "time": "20:00",
       "category": "Học tập",
       "status": "todo",
       "important": false,
       "goal": "",
-      "originalDate": "",
-      "postponed": 0,
+      "originalDate": "2026-11-25",
+      "postponed": 1,
       "link": "",
       "note": "",
       "doneAt": null,
@@ -191,14 +191,14 @@
       "date": "2026-11-25",
       "time": "12:00",
       "category": "Giảng dạy",
-      "status": "todo",
+      "status": "done",
       "important": false,
       "goal": "",
       "originalDate": "",
       "postponed": 0,
       "link": "",
       "note": "",
-      "doneAt": null,
+      "doneAt": "2026-11-26T14:54:20+07:00",
       "createdAt": "2026-11-25T02:25:14+07:00"
     },
     {
@@ -207,14 +207,14 @@
       "date": "2026-11-25",
       "time": "10:00",
       "category": "Giảng dạy",
-      "status": "todo",
+      "status": "done",
       "important": false,
       "goal": "",
       "originalDate": "",
       "postponed": 0,
       "link": "",
       "note": "",
-      "doneAt": null,
+      "doneAt": "2026-11-26T14:54:20+07:00",
       "createdAt": "2026-11-25T02:25:14+07:00"
     }
   ]
