@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T22:17:27+07:00",
+  "updatedAt": "2026-11-29T01:37:05+07:00",
   "roadmap": [],
   "schedule": [
     {
@@ -139,9 +139,10 @@
         7
       ],
       "label": "Chụp ảnh kỷ yếu với học sinh",
-      "slot": "Buổi trưa",
       "from": "2026-11-29",
-      "until": "2026-11-29"
+      "until": "2026-11-29",
+      "start": "10:00",
+      "end": ""
     }
   ],
   "goals": [],
